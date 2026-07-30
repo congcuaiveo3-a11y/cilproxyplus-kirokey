@@ -1,0 +1,63 @@
+# Binaries
+cli-proxy-api
+/cliproxy
+/server
+*.exe
+
+
+# Configuration
+config.yaml
+.env
+.mcp.json
+# Generated content
+bin/*
+logs/*
+conv/*
+temp/*
+refs/*
+tmp/*
+plugins/*
+examples/plugin/bin/*
+
+# Storage backends
+pgstore/*
+gitstore/*
+objectstore/*
+
+# Static assets
+static/*
+
+# Authentication data
+auths/*
+/auths
+!auths/.gitkeep
+
+# Documentation
+docs/*
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Tooling metadata
+.vscode/*
+.worktrees/
+.codex/*
+.claude/*
+.claude
+.gemini/*
+.serena/*
+.agent/*
+.agents
+.agents/*
+.opencode/*
+.idea/*
+.beads/*
+.bmad/*
+_bmad/*
+_bmad-output/*
+.mcp/cache/
+
+# macOS
+.DS_Store
+._*
+.gocache/
